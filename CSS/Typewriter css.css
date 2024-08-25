@@ -1,0 +1,35 @@
+
+/*Typewriter stylling*/
+.typewriter p {
+    font-family: monospace;
+    font-size: 3rem;
+    overflow: hidden;
+    border-right: 2px solid #fff;
+    white-space: nowrap;
+    margin: 0;
+    letter-spacing: 2px;
+    color: #000000;
+    animation: typing 5s steps(150, end), blink-caret 0.75s step-end infinite;
+    margin-left: -4rem;
+
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 20ch;
+    }
+
+    /* Adjust width to fit your content */
+}
+
+@keyframes blink-caret {
+
+    from,
+    to {
+        border-color: transparent;
+    }
+}
